@@ -156,9 +156,6 @@ header {
 
 .avatar {
   display: none;
-  max-width: 10%;
-  border-radius: 50%;
-  margin-right: 2rem;
 }
 
 .intro-text {
@@ -257,6 +254,9 @@ header {
 
   .avatar {
     display: block;
+    max-width: 10%;
+    border-radius: 50%;
+    margin-right: 2rem;
   }
 
   .social-list {
