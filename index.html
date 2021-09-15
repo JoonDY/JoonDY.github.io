@@ -1,96 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Joon Yi | Developer</title>
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5f90f72c16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5f90f72c16.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="header-content">
-            <div class="intro-text">
-                <img class="avatar" src="img/avatar.png" alt="avatar">
-                <h1>
-                    <strong>Daniel 'Joon' Yi</strong>
-                </h1>
-                    <!-- <h3>
+      <nav class="header-content">
+        <div class="intro-text">
+          <!-- <img class="avatar" src="img/avatar.png" alt="avatar"> -->
+          <h1>
+            <strong>danieljoonyi</strong>
+          </h1>
+          <!-- <h3>
                         {Aspiring Developer}
                     </h3>
                     <p>
                         My passion is learning. My goal is growing. My timeline is never-ending.
                     </p> -->
-            </div>
+        </div>
 
-            <ul class="social-list flex">
-                <li class="social-list-item"><a href="/files/Daniel_Yi_Resume.pdf" target="_blank" class="social-list-link"><i class="fas fa-file fa-2x"></i></a>
-                </li>
-                <li class="social-list-item"><a href="https://www.linkedin.com/in/danieljoonyi" target="_blank"
-                     class="social-list-link"><i class="fab fa-linkedin fa-2x"></i></a>
-                </li>
-                <li class="social-list-item"><a href="https://github.com/JoonDY" target="_blank" class="social-list-link"><i class="fab fa-github fa-2x"></i></a>
-                </li>
-                <li class="social-list-item"><a href="mailto:daniel.joon.yi@gmail.com" target="_blank" class="social-list-link">
-                        <i class="fas fa-paper-plane fa-2x"></i></a></li>
-            </ul>
-        </nav>
+        <ul class="social-list flex">
+          <li class="social-list-item" data-tooltip="Resume">
+            <a
+              href="/files/Daniel_Yi_Resume.pdf"
+              target="_blank"
+              class="social-list-link"
+              ><i class="fas fa-file fa-2x"></i
+            ></a>
+          </li>
+          <li class="social-list-item" data-tooltip="GitHub">
+            <a
+              href="https://github.com/JoonDY"
+              target="_blank"
+              class="social-list-link"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+          </li>
+          <li class="social-list-item" data-tooltip="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/danieljoonyi"
+              target="_blank"
+              class="social-list-link"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </li>
+
+          <li class="social-list-item" data-tooltip="Email">
+            <a
+              href="mailto:daniel.joon.yi@gmail.com"
+              target="_blank"
+              class="social-list-link"
+            >
+              <i class="fas fa-envelope fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main-container">
-        <section class="section bg-accent" id='about'>
-            <div class="skills flex-start">
-                <div class="skill-item">
-                    <h3>Friendly</h3>
-                    <div class="skill-group flex">
-                        <img src="/img/html5-original.svg" alt="html" class="skill-icon">
-                        <img src="/img/css3-original.svg" alt="css" class="skill-icon">
-                        <img src="/img/javascript-original.svg" alt="javascript" class="skill-icon">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <h3>Getting Acquainted</h3>
-                    <div class="skill-group flex">
-                        <img src="/img/react-original.svg" alt="react" class="skill-icon">
-                        <img src="/img/git-original.svg" alt="git" class="skill-icon">
-                        <img src="/img/npm-original-wordmark.svg" alt="npm" class="skill-icon">
-                    </div>
-                </div>
-                <div class="skill-item">
-                    <h3>On The Horizon</h3>
-                    <div class="skill-group flex">
-                        <img src="/img/python-original.svg" alt="python" class="skill-icon">
-                        <img src="/img/java-original.svg" alt="java" class="skill-icon">
-                        <img src="/img/postgresql-original.svg" alt="postgresql" class="skill-icon">
-                    </div>
-                </div>
+      <section class="skills-container section" id="about">
+        <h2>MEMORIES</h2>
+        <div class="skills flex">
+          <div class="skill-item bg-accent">
+            <h3>Present</h3>
+            <div class="skill-group">
+              <div class="skill-icon" data-tooltip="React">
+                <img src="/img/react-original.svg" alt="react" />
+              </div>
+              <div class="skill-icon" data-tooltip="Javascript">
+                <img src="/img/javascript-original.svg" alt="javascript" />
+              </div>
+              <div class="skill-icon" data-tooltip="Express">
+                <img
+                  src="/img/express-original-wordmark.svg"
+                  alt="express"
+                  class="express"
+                />
+              </div>
+              <div class="skill-icon" data-tooltip="NodeJS">
+                <img src="/img/nodejs-original.svg" alt="node" />
+              </div>
+              <div class="skill-icon" data-tooltip="PostgreSQL">
+                <img src="/img/postgresql-original.svg" alt="postgresql" />
+              </div>
+              <div class="skill-icon" data-tooltip="HTML5">
+                <img src="/img/html5-original.svg" alt="html" />
+              </div>
+              <div class="skill-icon" data-tooltip="CSS3">
+                <img src="/img/css3-original.svg" alt="css" />
+              </div>
+              <div class="skill-icon" data-tooltip="Git">
+                <img src="/img/git-original.svg" alt="git" />
+              </div>
+              <div class="skill-icon" data-tooltip="npm">
+                <img src="/img/npm-original-wordmark.svg" alt="npm" />
+              </div>
             </div>
-        </section>
-
-        <section class="section" id='projects'>
-            <h3>Projects</h2>
-            <div class="projects flex">
-                <img src="/img/placeholder.jpg" alt="" class="project-img">
-                <img src="/img/placeholder.jpg" alt="" class="project-img">
-                <img src="/img/placeholder.jpg" alt="" class="project-img">
+          </div>
+          <div class="skill-item bg-accent">
+            <h3>Future</h3>
+            <div class="skill-group future-group">
+              <div class="skill-icon" data-tooltip="Java">
+                <img src="/img/java-original.svg" alt="java" />
+              </div>
+              <div class="skill-icon" data-tooltip="Python">
+                <img src="/img/python-original.svg" alt="python" />
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
+      <section class="projects-container section" id="projects">
+        <h2>ADVENTURES</h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="img-container">
+              <img src="/img/ingredient-app.png" alt="" class="project-img" />
+              <div class="img-overlay">
+                <h3 class="project-title">Ingredient List</h3>
+                <div class="btn-container">
+                  <a
+                    href="https://quizzical-yonath-3acedd.netlify.app/"
+                    target="_blank"
+                    ><button class="btn-project">Preview</button></a
+                  >
+                  <a
+                    href="https://github.com/JoonDY/ingredients-app"
+                    target="_blank"
+                    ><button class="btn-project">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="img-container">
+              <img src="/img/ingredient-api.jpg" alt="" class="project-img" />
+              <div class="img-overlay">
+                <h3 class="project-title">Ingredient REST API</h3>
+                <div class="btn-container">
+                  <a
+                    href="https://github.com/JoonDY/cooking-app-api"
+                    target="_blank"
+                    ><button class="btn-project">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="img-container">
+              <img src="/img/redesign-site.png" alt="" class="project-img" />
+              <div class="img-overlay">
+                <h3 class="project-title">Site Redesign</h3>
+                <div class="btn-container">
+                  <a
+                    href="https://nifty-neumann-c8ae0d.netlify.app/"
+                    target="_blank"
+                    ><button class="btn-project">Preview</button></a
+                  >
+                  <a
+                    href="https://github.com/JoonDY/redesign-site"
+                    target="_blank"
+                    ><button class="btn-project">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="img-container">
+              <img src="/img/mini-projects.jpg" alt="" class="project-img" />
+              <div class="img-overlay">
+                <h3 class="project-title">Mini-Projects</h3>
+                <div class="btn-container">
+                  <a
+                    href="https://github.com/JoonDY/mini-projects"
+                    target="_blank"
+                    ><button class="btn-project">Code</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer id="footer">
-        
-    </footer>
-
-    <script src="/js/script.js"></script>
-</body>
-
+    <footer id="footer"></footer>
+  </body>
 </html>
