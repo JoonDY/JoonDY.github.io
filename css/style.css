@@ -52,7 +52,7 @@ ul {
 
 img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 h1 {
@@ -255,11 +255,12 @@ header {
 
 .img-container {
   position: relative;
+  height: 100%;
 }
 
 .project-img {
   margin: 0 auto;
-  object-fit: fill;
+  object-fit: cover;
   background-color: var(--bg-light);
 }
 
